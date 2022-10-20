@@ -1,0 +1,53 @@
+.container {
+  margin-top: 60px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.header-heading {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.header-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-size: 20px;
+}
+.input-container {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.input-container__input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.input-container__button {
+  padding: 7px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: aqua;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+}
+.input-container__button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.card-container {
+  margin-inline: auto;
+  width: 300px;
+  height: 380px;
+  border-radius: 5px;
+  background: linear-gradient(to right bottom, #42cde3, #036396);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
